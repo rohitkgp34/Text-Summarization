@@ -35,5 +35,13 @@ For this method first need to have better knowledge of **PageRank Algorithm** a 
 **Flowchart**
 ![](flowchart.PNG)
 
+**Step-1**
 
+To combine all the text it can done simply using **Pandas** library.
 
+**Step-2**
+
+To split the text into sentence will do this using NLP library called **NLTK** using Tokenization concept.
+**Tokenization** is the process of breaking a stream of text up into words, symbols, or other meaningful elements called tokens.
+Tokenization is generally done in two ways **Sentence** and **Word tokenization**.
+We will be using **Word tokenization**.
