@@ -47,3 +47,28 @@ Tokenization is generally done in two ways **Sentence** and **Word tokenization*
 We will be using **Sentence tokenization**.
 
 ![](Images/tokenization.PNG)
+
+**Step-3**
+
+To find vector representation for each and every sentence we will be using **word embedding** from **GloVe** feature of NLP.
+GloVe (Global Vectors) is an unsupervised learning algorithm for obtaining vector representations for words.
+
+Use this commands to install the dependencies -
+```!wget http://nlp.Stanford.edu/data/glove.6B.zip``` and then
+```!unzip glove*.zip```
+
+**glove.6B.100d.txt (after unzipping above file) contains 6 Billion tokens of around 400k vocab of a vector of size 100**
+
+Below is a vector representation of **we** keyword -
+![](Images/wevector.PNG)
+
+Now, we have got vectors for each word in a sentence we will create vectors for complete sentence ,but before that cleaning of data must be done i.e. remove stopwords, punctuations, numbers, special characters and make alphabets lowercase (can ne done by Python regex library and NLP)
+
+Let’s create those vectors now –
+Will first fetch vectors (each of size 100 elements) for the constituent words in a sentence and then take average of those vectors to arrive at a consolidated vector for the sentence.
+
+
+
+
+
+
