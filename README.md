@@ -13,7 +13,7 @@ There are many reasons and uses for a summary of a larger document -
 
 These methods rely on extracting several parts, such as phrases and sentences, from a piece of text and stack them together to create a summary. Therefore, identifying the right sentences for summarization is of utmost importance in an extractive method.
 
-![](extractive.PNG)
+![](Images/extractive.PNG)
 
 **2.Abstractive-based summarization**
 
@@ -21,19 +21,19 @@ These methods use advanced NLP and Deep learning techniques to generate an entir
 The abstractive text summarization algorithms create new phrases and sentences that relay the most useful information from the original text — just like humans do.
 Therefore, abstraction performs better than extraction. However, the text summarization algorithms required to do abstraction are more difficult to develop; that’s why the use of extraction is still popular.
 
-![](deepnlp.png)
+![](Images/deepnlp.png)
 
-**Extraction-based Method**
+# Extraction-based Method
 
 For this method first need to have better knowledge of **PageRank Algorithm** a method for rating the importance of web pages objectively and mechanically using the link structure of the web or, In short PageRank is a “vote”, by all the other pages on the Web, about how important a page is. This is how it works -
 
-![](pagerankalgorithm.PNG)
+![](Images/pagerankalgorithm.PNG)
 
 **Steps used in Algorithm**
-![](algorithm.PNG)
+![](Images/algorithm.PNG)
 
 **Flowchart**
-![](flowchart.PNG)
+![](Images/flowchart.PNG)
 
 **Step-1**
 
@@ -46,4 +46,4 @@ To split the text into sentence will do this using NLP library called **NLTK** u
 Tokenization is generally done in two ways **Sentence** and **Word tokenization**.
 We will be using **Sentence tokenization**.
 
-![](tokenization.PNG)
+![](Images/tokenization.PNG)
