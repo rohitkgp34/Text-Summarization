@@ -46,8 +46,8 @@ To split the text into sentence will do this using NLP library called **NLTK** u
 Tokenization is generally done in two ways **Sentence** and **Word tokenization**.
 We will be using **Sentence tokenization**.
 
-Install NLTK : ```conda install -c anaconda nltk``` and ```nltk.download ()``` 
-Test it using : ```import nltk```
+* Install NLTK : ```conda install -c anaconda nltk``` and ```nltk.download ()``` 
+* Test it using : ```import nltk```
 
 
 ![](Images/tokenization.PNG)
