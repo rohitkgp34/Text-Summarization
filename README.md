@@ -46,6 +46,10 @@ To split the text into sentence will do this using NLP library called **NLTK** u
 Tokenization is generally done in two ways **Sentence** and **Word tokenization**.
 We will be using **Sentence tokenization**.
 
+Install NLTK : ```conda install -c anaconda nltk``` and ```nltk.download ()``` 
+Test it using : ```import nltk```
+
+
 ![](Images/tokenization.PNG)
 
 **Step-3**
@@ -66,9 +70,3 @@ Now, we have got vectors for each word in a sentence we will create vectors for 
 
 Let’s create those vectors now –
 Will first fetch vectors (each of size 100 elements) for the constituent words in a sentence and then take average of those vectors to arrive at a consolidated vector for the sentence.
-
-
-
-
-
-
