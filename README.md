@@ -28,3 +28,12 @@ Therefore, abstraction performs better than extraction. However, the text summar
 For this method first need to have better knowledge of **PageRank Algorithm** a method for rating the importance of web pages objectively and mechanically using the link structure of the web or, In short PageRank is a “vote”, by all the other pages on the Web, about how important a page is. This is how it works -
 
 ![](pagerankalgorithm.PNG)
+
+**Steps used in Algorithm**
+![](algorithm.PNG)
+
+**Flowchart**
+![](flowchart.PNG)
+
+
+
