@@ -29,17 +29,17 @@ For this method first need to have better knowledge of **PageRank Algorithm** a 
 
 ![](Images/pagerankalgorithm.PNG)
 
-**Steps used in Algorithm**
+## Steps used in Algorithm ##
 ![](Images/algorithm.PNG)
 
-**Flowchart**
+## Flowchart ##
 ![](Images/flowchart.PNG)
 
-**Step-1**
+### Step-1 ###
 
 To combine all the text it can done simply using **Pandas** library.
 
-**Step-2**
+### Step-2 ###
 
 To split the text into sentence will do this using NLP library called **NLTK** using Tokenization concept.
 **Tokenization** is the process of breaking a stream of text up into words, symbols, or other meaningful elements called tokens.
@@ -51,7 +51,7 @@ We will be using **Sentence tokenization**.
 
 ![](Images/tokenization.PNG)
 
-**Step-3**
+### Step-3 ###
 
 To find vector representation for each and every sentence we will be using **word embedding** from **GloVe** feature of NLP.
 GloVe (Global Vectors) is an unsupervised learning algorithm for obtaining vector representations for words.
@@ -70,28 +70,33 @@ Now, we have got vectors for each word in a sentence we will create vectors for 
 Let’s create those vectors now –
 Will first fetch vectors (each of size 100 elements) for the constituent words in a sentence and then take average of those vectors to arrive at a consolidated vector for the sentence.
 
-**Step-4**
+### Step-4 ###
 
 To find similarity between sentence vectors are then calculated and stored in a Matrix –
 We will use Cosine Similarity Approach for this and will first create zero matrix of dimensions (n * n) where n is the number of sentence and then will consine similarity function for computation.
 
 ![](Images/consine.PNG)
-
-**Step-5**
+### Step-5 ###
 
 * Rank Calculation of those sentence –
 Now, let’s convert the similarity matrix into a graph using networkx library. The nodes of this graph will represent the sentences and the edges will represent the similarity scores between the sentences.
 
 ![](Images/rank.PNG)
 
-* Let’s understand the TextRank algorithm, now that we have a grasp on PageRank.
-1. In place of web pages, we use sentences <br />
-2.Similarity between any two sentences is used as an equivalent to the web page transition probability <br />
-3.The similarity scores are stored in a square matrix, similar to the matrix M used for PageRank <br />
+* Let’s understand the TextRank algorithm, now that we have a grasp on PageRank. <br />
+1.In place of web pages, we use sentences <br />2.Similarity between any two sentences is used as an equivalent to the web page transition probability <br />3.The similarity scores are stored in a square matrix, similar to the matrix M used for PageRank <br />
 After applying TextRank Algorithm on graph we will get sentence sorted according to importance as their weight
 
 ![](Images/ordered.PNG)
 
-**Step-6**
+### Step-6 ###
 
 Lastly, a certain number of top-ranked statement will form a final summary!!!!!!
+
+## Input Text ##
+
+![](Images/input.PNG)
+
+## Output Text ##
+
+![](Images/output.PNG)
