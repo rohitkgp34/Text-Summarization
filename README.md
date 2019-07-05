@@ -101,7 +101,7 @@ Lastly, a certain number of top-ranked statement will form a final summary!!!!!!
 
 ![](Images/output.PNG)
 
-## References ##
+### References ###
 
 * https://machinelearningmastery.com/gentle-introduction-text-summarization/
 * https://nlp.stanford.edu/projects/glove/
