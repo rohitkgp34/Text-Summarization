@@ -100,3 +100,10 @@ Lastly, a certain number of top-ranked statement will form a final summary!!!!!!
 ## Output Text ##
 
 ![](Images/output.PNG)
+
+## References ##
+
+* https://machinelearningmastery.com/gentle-introduction-text-summarization/
+* https://nlp.stanford.edu/projects/glove/
+* https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/
+* https://www.researchgate.net/publication/257947528_Text_SummarizationAn_Overview
