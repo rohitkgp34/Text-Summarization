@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Forms</title>
+	</head>
+	<body>
+		<form action="http://www.example.com/review.php" method="get">
+			<fieldset>
+				<legend>Your Details:</legend>
+				<label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
+				<label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+			</fieldset><br />
+			<fieldset>
+				<legend>Your Review:</legend>
+				<p>
+					<label for="input">Input Text:</label><br />
+					<textarea rows="4" cols="40" id="input"></textarea>
+				</p>
+				<input type="submit" value="Submit Input Text">
+				<p>
+					<label for="output">Output Text:</label><br />
+					<textarea rows="4" cols="40" id="output"></textarea>
+				</p>
+			</fieldset>
+		</form>
+	</body>
+</html>
